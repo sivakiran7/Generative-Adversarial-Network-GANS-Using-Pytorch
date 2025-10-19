@@ -12,6 +12,7 @@ The Generator learns to create fake images that resemble real ones.
 
 The Discriminator learns to identify whether an image is real or generated.
 Through this adversarial process, the Generator gradually improves until its images are nearly indistinguishable from real data.
+<img width="821" height="799" alt="Screenshot 2025-10-19 213241" src="https://github.com/user-attachments/assets/19e7846e-c54c-47de-a857-03ff4f6797a6" />
 
 # 🧩 Architecture
 🪄 Generator
@@ -39,6 +40,8 @@ Output: Probability (real = 1, fake = 0)
 Component	Input	Output	Key Layers
 Generator	Noise vector	Generated image	Linear / ConvTranspose + BatchNorm + Activation
 Discriminator	Image	Real/Fake probability	Conv / Linear + LeakyReLU + Dropout
+
+ <img width="785" height="790" alt="Screenshot 2025-10-19 213251" src="https://github.com/user-attachments/assets/b12dfe23-f69c-4bb5-8dc1-4d6f1a5f8d19" />
 
 # ⚙️ Requirements
 
